@@ -1,0 +1,22 @@
+{
+  "operational": {
+    "min_speed_mph": 5.0
+  },
+  "gen_ai": {
+    "max_recommendation_words": 25
+  },
+  "cadence": {
+    "low": { "slope": 4.25, "intercept": 123 },
+    "median": { "slope": 5.25, "intercept": 132 },
+    "high": { "slope": 6.0, "intercept": 151 }
+  },
+  "vertical": {
+    "low_limit": { "a": 0.92, "b": -30.8, "c": 395 },
+    "median_limit": { "a": 1.07, "b": -36.0, "c": 468 },
+    "high_limit": { "a": 1.23, "b": -41.2, "c": 540 }
+  },
+  "horizontal": {
+    "excellent_threshold": 1.0,
+    "fair_threshold": 2.0
+  }
+}

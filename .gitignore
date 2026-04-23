@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.env
+*.json
+!coaching-agent/config/*.json
+venv/
+env/
+.DS_Store
